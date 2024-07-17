@@ -60,6 +60,19 @@ header nav ul li a {
     text-align: center;
 }
 
+.flags, .player-images {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.flags img, .player-images img {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
+
 .feature {
     margin: 2rem 0;
 }
